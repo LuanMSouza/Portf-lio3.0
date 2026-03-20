@@ -54,7 +54,7 @@ export default function Hero() {
 
                 {/* Botões - w-full no mobile para facilitar o clique */}
                 <div className="mt-10 md:mt-12 flex flex-col sm:flex-row gap-4 md:gap-5 w-full sm:w-auto">
-                    <Link href={'#projects'}
+                    <Link href={'#projetos'}
                         className="h-14 justify-center flex items-center px-10 rounded-xl bg-white text-gray-900 font-extrabold tracking-tight hover:bg-neon-blue hover:text-white cursor-pointer transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.5)] active:scale-95 w-full sm:w-auto text-sm md:text-base">
                         Explorar Projetos
                     </Link >

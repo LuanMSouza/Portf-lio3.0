@@ -36,7 +36,7 @@ export default function TopBar() {
                 <nav className="z-10 flex items-center gap-4 md:gap-10">
                     {/* Projetos e Stack: Escondidos no mobile para dar espaço ao botão principal, ou apenas diminuímos a margem */}
                     <Link
-                        href={'#projects'}
+                        href={'#projetos'}
                         className="text-[9px] md:text-[11px] font-bold tracking-[0.1em] md:tracking-[0.2em] text-gray-500 hover:text-white transition-all uppercase cursor-pointer"
                     >
                         Projetos
@@ -51,7 +51,7 @@ export default function TopBar() {
 
                     {/* BOTÃO CONTATO: Diminuído no mobile */}
                     <Link
-                        href={'#contact'}
+                        href={'#contato'}
                         className="cursor-pointer relative group px-4 py-2 md:px-6 md:py-2 overflow-hidden rounded-full border border-white/5 bg-white/5 transition-all shrink-0"
                     >
                         <div className="absolute inset-0 bg-neon-yellow/5 opacity-0 group-hover:opacity-100 transition-opacity" />
