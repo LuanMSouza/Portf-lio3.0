@@ -1,3 +1,5 @@
+"use client";
+
 import Contact from "@/componentes/contato";
 import Hero from "@/componentes/hero";
 import Projetos from "@/componentes/projetos";
