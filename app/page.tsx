@@ -3,11 +3,11 @@ import Hero from "@/componentes/hero";
 import Projetos from "@/componentes/projetos";
 import Stack from "@/componentes/stack";
 import TopBar from "@/componentes/topBar";
+import { useEffect } from "react";
 
 export default function Home() {
 
   const trackAccess = () => {
-    // 1. Coleta os dados
     const params = new URLSearchParams(window.location.search);
 
     const payload = JSON.stringify({
@@ -37,9 +37,9 @@ export default function Home() {
     }
   };
 
-  if (typeof window !== 'undefined') {
-    trackAccess();
-  }
+  useEffect(() => {
+    trackAccess
+  }, [])
 
   return (
     <main>
