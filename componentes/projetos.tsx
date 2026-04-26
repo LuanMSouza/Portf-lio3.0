@@ -13,6 +13,15 @@ export default function Projetos() {
             image: "/projetos/zentrax.png",
         },
         {
+            title: "EG Personalizados",
+            tag: "E-commerce / Local / Catálogo digital",
+            description: "Ecossistema integrado entre site de landing page, sistema de gestão interna para geração de orçamentos e vendas, e catálogo online.",
+            tech: ["Next.js", "Node.js", "Tailwind", "PostgreSQL"],
+            link: "https://egpersonalizados.com.br",
+            featured: true,
+            image: "/projetos/egp.png",
+        },
+        {
             title: "Zentro",
             tag: "SaaS / Fintech",
             description: "Gestão financeira pessoal inteligente, focado em gestão compartilhada.",
@@ -30,16 +39,7 @@ export default function Projetos() {
             featured: false,
             image: "/projetos/maresia.png",
 
-        },
-        // {
-        //     title: "NGS-Importados",
-        //     tag: "E-commerce / Local",
-        //     description: "Plataforma de vendas e catálogo digital para importadora com sistema de status em tempo real, e vitrine digital.",
-        //     tech: ["React.js", "Node.js", "PostgreSQL"],
-        //     link: "#",
-        //     featured: false,
-        //     image: "/projetos/ngs.png",
-        // }
+        }
 
     ];
 
