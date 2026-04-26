@@ -10,7 +10,7 @@ export default function Projetos() {
             tech: ["Next.js", "Prisma", "PostgreSQL", "Tailwind"],
             link: "https://zentrax.dvls.com.br",
             featured: true,
-            image: "/projetos/zentrax.png",
+            image: "/projetos/zentrax.webP",
         },
         {
             title: "EG Personalizados",
@@ -19,7 +19,7 @@ export default function Projetos() {
             tech: ["Next.js", "Node.js", "Tailwind", "PostgreSQL"],
             link: "https://egpersonalizados.com.br",
             featured: true,
-            image: "/projetos/egp.png",
+            image: "/projetos/egp.webP",
         },
         {
             title: "Zentro",
@@ -28,7 +28,7 @@ export default function Projetos() {
             tech: ["Next.js", "Node.js", "Tailwind", "PostgreSQL"],
             link: "https://zentro.dvls.com.br",
             featured: false,
-            image: "/projetos/zentro.png",
+            image: "/projetos/zentro.webP",
         },
         {
             title: "Maresia Bebidas",
@@ -37,10 +37,9 @@ export default function Projetos() {
             tech: ["React", "Next.js"],
             link: "https://maresia-bebidas.com",
             featured: false,
-            image: "/projetos/maresia.png",
+            image: "/projetos/maresia.webP",
 
         }
-
     ];
 
     return (
@@ -62,7 +61,7 @@ export default function Projetos() {
                         <Link
                             href={project.link}
                             key={index}
-                            target="_blank" // Abre numa nova aba para o user não sair do teu site
+                            target="_blank"
                             className={`group relative overflow-hidden rounded-3xl border border-white/5 bg-brand-metal p-8 transition-all hover:border-neon-blue/30 cursor-pointer ${project.featured ? "md:col-span-2 flex flex-col md:flex-row gap-8" : ""
                                 }`}
                         >
